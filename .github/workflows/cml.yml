@@ -23,4 +23,6 @@ jobs:
           
           echo "model matrix ya ragg:"
           cat metrics.txt
+
+          echo "ragg ya wa7chhhhhhhh"
       
