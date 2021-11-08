@@ -9,7 +9,7 @@ seed = 42
 
 ################################
 ########## DATA PREP ###########
-################################
+################################ff
 
 # Load in the data
 df = pd.read_csv("wine_quality.csv")
@@ -57,7 +57,7 @@ ax.set_ylabel('Feature', fontsize = axis_fs)#ylabel
 ax.set_title('Random forest\nfeature importance', fontsize = title_fs)
 
 plt.tight_layout()
-plt.savefig("feature_importance.png",dpi=120) 
+plt.savefig("feature_importance.png",dpi=120)
 plt.close()
 
 
